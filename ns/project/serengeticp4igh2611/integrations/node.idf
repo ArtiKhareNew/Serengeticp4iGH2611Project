@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">project.serengeticp4igh2611.integrations</value>
+  <value name="node_pkg">Serengeticp4iGH2611Project</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">arti.khare@ibm.com</value>
+    <value name="modifiedBy">arti.khare@ibm.com</value>
+    <value name="createdDate">2026-11-26T05:20:35.900716882Z</value>
+    <value name="lastModifiedDate">2026-11-26T05:20:35.900716882Z</value>
+  </record>
+  <value name="is_public">false</value>
+</Values>
