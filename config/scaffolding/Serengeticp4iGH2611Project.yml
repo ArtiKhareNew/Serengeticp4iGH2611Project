@@ -8,7 +8,29 @@ packages:
   gitUsername: ArtiKhareNew
   gitBranch: main
 - name: MultiplyPublicService
+  version: "6.0"
   gitServerName: srcCtrl_shared_bitbucket_Arti
   gitUrl: https://bitbucket.org/testartiibm
   gitUsername: artikhare
   gitBranch: master
+services:
+- serviceName: project.serengeticp4igh2611.integrations:bitbucketfs
+  packages:
+  - name: Serengeticp4iGH2611Project
+    version: "1.0"
+  - name: MultiplyPublicService
+    version: "6.0"
+- serviceName: MultiplyPublicService:multiply_svc
+  packages:
+  - name: MultiplyPublicService
+    version: "6.0"
+- serviceName: pub.math:multiplyInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1345
+- serviceName: project.serengeticp4igh2611.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: Serengeticp4iGH2611Project
+    version: "1.0"
+  - name: MultiplyPublicService
+    version: "6.0"
