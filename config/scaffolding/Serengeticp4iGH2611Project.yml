@@ -24,6 +24,11 @@ packages:
   gitUrl: https://gitlab.com/ArtiKhareGitlab
   gitUsername: ArtiKhareGitlab
   gitBranch: master
+- name: SubstractPublicSvcPackage
+  gitServerName: srcCtrl_shared_AzRepos_Arti
+  gitUrl: https://dev.azure.com/ArtiKhare/SubstractPublicSvcPackage/_git
+  gitUsername: ArtiKhare
+  gitBranch: main
 services:
 - serviceName: project.serengeticp4igh2611.integrations:bitbucketfs
   packages:
@@ -35,6 +40,8 @@ services:
     version: 9.12.0.0.12
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: SubstractPublicSvcPackage
+    version: "4.0"
   - name: MultiplyPublicService
     version: "6.0"
 - serviceName: MultiplyPublicService:multiply_svc
@@ -55,5 +62,7 @@ services:
     version: 9.12.0.0.12
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: SubstractPublicSvcPackage
+    version: "4.0"
   - name: MultiplyPublicService
     version: "6.0"
